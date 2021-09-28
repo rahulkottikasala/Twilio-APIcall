@@ -1,0 +1,51 @@
+.verify-container{
+    max-width:500px;
+}
+h3{
+    text-align: center;
+    color: rgba(255, 255, 255, 0.9);
+    margin: 60px 0;
+}
+p{
+    color: rgba(255, 255, 255, 0.9);
+    font-size : 17px;
+}
+.edit-number{
+    color: rgba(255, 255, 255, 0.9);
+    font-size : 15px;
+    text-decoration: underline;
+    cursor: pointer;
+}
+.input{
+    display: flex;
+  flex-direction: column;
+    margin: 30px 0;
+  position: relative;
+}
+.input label {
+    color: rgb(165,165,165);
+    align-items: flex-start;
+    position: absolute;
+    top: 10px;
+    font-size: 15px;
+    transition: 0.5s ease-in-out;
+}
+.input input{
+    border: none ;
+    padding: 7px;
+    margin-top: 5px;
+    outline: none;
+    color: rgba(255, 255, 255, 0.9);
+    background-color:rgb(42, 50, 63);
+    border-bottom: 1px solid #c9c9c98a;
+}
+.input input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+}
+.input input:focus ~ label,
+.input input:valid ~ label{
+    top: -10px;
+    font-size: 13px;
+    
+}
+.verify-button{}
