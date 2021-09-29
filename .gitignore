@@ -1,5 +1,6 @@
 /server/node_modules
 /client/node_modules
+/server/helpers/twilio-config.js
 #
 .vscode/*
 !.vscode/settings.json

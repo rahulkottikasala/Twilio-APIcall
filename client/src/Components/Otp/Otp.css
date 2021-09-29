@@ -48,4 +48,10 @@ p{
     font-size: 13px;
     
 }
-.verify-button{}
+.verify-button{
+    width: 90px;
+    margin: 10px 0;
+    color:rgb(42, 50, 63);
+    background-color: rgba(255, 255, 255, 0.9);
+    border: none;
+}
